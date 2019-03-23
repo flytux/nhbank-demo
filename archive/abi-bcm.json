@@ -1,0 +1,111 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "certId",
+				"type": "string"
+			},
+			{
+				"name": "certEvent",
+				"type": "string"
+			},
+			{
+				"name": "certData",
+				"type": "string"
+			}
+		],
+		"name": "applyCert",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "certId",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "certEvent",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "certData",
+				"type": "string"
+			}
+		],
+		"name": "on_apply_cert",
+		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "certId",
+				"type": "string"
+			}
+		],
+		"name": "getCert",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "certId",
+				"type": "string"
+			}
+		],
+		"name": "getCert2",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "certId",
+				"type": "string"
+			}
+		],
+		"name": "getCert3",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
